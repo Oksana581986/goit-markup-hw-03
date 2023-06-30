@@ -1,0 +1,288 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+:root {
+  --cloud-color: #f4f4fd;
+  --navy-color: #2e2f42;
+  --white-color: #ffffff;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --slate-color: #434455;
+}
+
+/*Header container*/
+
+.nav {
+  text-decoration: none;
+}
+.logo.link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--iris-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-text {
+  color: var(--navy-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: var(--navy-color);
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--ocean-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-list .link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+  text-decoration: none;
+  list-style: none;
+}
+
+.address-list .link:hover,
+.address-list .link:focus,
+.address-list .link:active {
+  color: var(--ocean-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/*Solutions for bussiness*/
+
+.effective-solutions {
+  background-color: var(--navy-color);
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.button-service {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--iris-color);
+  cursor: pointer;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+.button-text {
+  color: var(--white-color);
+}
+
+.button-service:hover,
+.button-service:focus {
+  background-color: var(--ocean-color);
+}
+
+/*Business characteristics*/
+
+.business {
+  background-color: var(--white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.business-item {
+  font-style: normal;
+}
+
+.about-business {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-color);
+}
+
+.business-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+
+/*Our work*/
+.work {
+  background-color: var(--white-color);
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-color);
+}
+.list {
+  list-style: none;
+}
+
+/*Team*/
+
+.team {
+  background-color: var(--cloud-color);
+}
+
+.team-our-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-color);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.team-item {
+  background-color: var(--white-color);
+}
+
+.team-text {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+
+/*Footer*/
+.page-footer {
+  background-color: var(--navy-color);
+}
+
+.footer-logo-text {
+  color: var(--cloud-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cloud-color);
+}
+
+/*Projects*/
+
+.projects {
+  background-color: var(--white-color);
+}
+
+.projects.title {
+  color: var(--navy-color);
+}
+
+.button-list {
+  background-color: var(--white-color);
+}
+.list {
+  list-style: none;
+}
+
+.button-color {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris-color);
+  background-color: var(--cloud-color);
+  cursor: pointer;
+}
+
+.button-color:hover,
+.button-color:focus {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.card-item {
+  background-color: var(--white-color);
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-color);
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
