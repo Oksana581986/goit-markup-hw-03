@@ -40,7 +40,6 @@ img {
   display: block;
 }
 
-
 /*Header container*/
 
 .header {
@@ -482,6 +481,7 @@ img {
   width: calc(100% - 4*24px)/5;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .button-color {
