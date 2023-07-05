@@ -81,6 +81,7 @@ img {
   text-decoration: none;
   display: flex;
   align-items: center;
+  padding: 24px 0;
  }
 
 .logo {
@@ -99,6 +100,10 @@ img {
   padding: 24px 0;
 }
 
+.page-nav-item {
+  padding: 24px 0;
+}
+
 .list {
   list-style: none;
 }
@@ -113,6 +118,7 @@ img {
   color: var(--navy-color);
   letter-spacing: 0.02em;
   align-items: center;
+  padding: 24px 0;
   }
 
 .list {
@@ -184,11 +190,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-color);
-  flex-direction: column;
-  display: flex;
-  width: 496px;
+  max-width: 496px;
+  margin-bottom: 48px;
   margin: 0 auto;
-}
+  }
 
 .button-service {
   font-weight: 500;
@@ -199,14 +204,17 @@ img {
   cursor: pointer;
   border: none;
   font-family: "Roboto", sans-serif;
-  display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
   margin-top: 48px;
- }
+  }
 
 .button-text {
   color: var(--white-color);
@@ -331,6 +339,7 @@ img {
 
 .team {
   background-color: var(--cloud-color);
+  padding: 120px 0;
 }
 
 .container {
@@ -351,9 +360,8 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: var(--navy-color);
-  padding-top: 120px;
-  padding-bottom: 72px;
   margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .team-title {
@@ -363,6 +371,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-color);
+  margin-bottom: 8px;
 }
 
 .team-list {
@@ -379,8 +388,10 @@ img {
   width: calc(100% - 3*24)/4;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin-bottom: 120px;
-  padding-bottom: 32px;
+}
+
+.team-text-container {
+  padding: 32px 16px;
 }
 
 .team-text {
@@ -389,8 +400,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
-  margin-top: 8px;
-}
+  }
 
 .team-list-item-img {
   display: block;
@@ -406,7 +416,14 @@ img {
   background-color: var(--navy-color);
   padding: 100px 0;
 }
+
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -424,14 +441,15 @@ img {
 /*Projects*/
 
 .projects {
-background-color: var(--white-color);
-padding-top: 96px;
+ background-color: var(--white-color);
+ padding-top: 96px;
+ padding-bottom: 120px;
 }
 
-.projects-button-container {
-  align-items: center;
-  justify-content: center;
+.projects-scheme-container {
   display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .visually-hidden {
@@ -479,15 +497,17 @@ padding-top: 96px;
   border-radius: 4px;
   border: 1px solid #E7E9FC;
   padding: 12px 24px;
-  display: inline-flex;
+  display: block;
   justify-content: center;
   align-items: center;
+  margin: o auto;
 }
 
 .button-color:hover,
 .button-color:focus {
   color: var(--white-color);
   background-color: var(--ocean-color);
+  border: 1px solid transparent;
 }
 
 .list {
@@ -502,20 +522,23 @@ padding-top: 96px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+ }
+
 .card-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
-  margin-bottom: 120px; 
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .card-item {
   background-color: var(--white-color);
-  width: calc((100% - 2*24px) / 3);
+  width: calc((100% - 48px) / 3);
   border: 1px solid #7e9fc7;
-  padding-bottom: 32px;
-}
+  }
 
 .project-card-img {
   border: none;
@@ -534,10 +557,7 @@ padding-top: 96px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-color);
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-right: 16px;
-  margin-left: 16px;
 }
 
 .card-text {
@@ -545,6 +565,4 @@ padding-top: 96px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
-  margin-right: 16px;
-  margin-left: 16px;
-}
+  }
