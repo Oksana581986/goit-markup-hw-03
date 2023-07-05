@@ -66,8 +66,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
-}
+ }
 
 .logo.link {
   font-family: "Raleway", sans-serif;
@@ -78,16 +77,14 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  display: flex;
+  display: inline-block;
   align-items: center;
-  padding: 24px 0;
- }
+  }
 
 .logo {
-  display: flex;
+  display: inline-block;
   align-items: center;
   margin-right: 76px;
-  padding: 24px 0;
  }
 
 .logo-text {
@@ -96,11 +93,6 @@ img {
 .page-nav {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
-}
-
-.page-nav-item {
-  padding: 24px 0;
 }
 
 .list {
@@ -117,8 +109,7 @@ img {
   color: var(--navy-color);
   letter-spacing: 0.02em;
   align-items: center;
-  padding: 24px 0;
-  }
+}
 
 .list {
   list-style: none;
@@ -182,6 +173,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .page-title {
   font-weight: 700;
   font-size: 56px;
@@ -235,12 +227,6 @@ img {
 .features-container {
   flex-wrap: wrap;
   flex-direction: column;
-  }
-
-  .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
   }
 
 .visually-hidden {
@@ -297,12 +283,6 @@ img {
   width: 1128px;
 }
 
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -341,14 +321,8 @@ img {
   padding: 120px 0;
 }
 
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .team-card-container {
-  width: 1440px;
+  justify-content: center;
 }
 
 .team-our-title {
@@ -403,11 +377,7 @@ img {
 
 .team-list-item-img {
   display: block;
-  margin-bottom: 32px;
-  padding-bottom: 0px;
-  justify-content: center;
-  align-items: center;
-  }
+}
 
 /*Footer*/
 
@@ -416,7 +386,7 @@ img {
   padding: 100px 0;
 }
 
-.logo {
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -425,6 +395,7 @@ img {
   letter-spacing: 0.03em;
   display: inline-block;
   margin-bottom: 16px;
+  color: var(--iris-color);
 }
 
 .footer-logo-text {
@@ -443,9 +414,6 @@ img {
  background-color: var(--white-color);
  padding-top: 96px;
  padding-bottom: 120px;
-}
-
-.projects-scheme-container {
 }
 
 .visually-hidden {
@@ -508,9 +476,6 @@ img {
 }
 
 .project-card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -533,12 +498,6 @@ img {
   display: block;
 }
 
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .card-title {
   font-weight: 500;
   font-size: 20px;
@@ -553,4 +512,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
-  }
+}
