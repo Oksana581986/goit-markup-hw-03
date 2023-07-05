@@ -446,9 +446,6 @@ img {
 }
 
 .projects-scheme-container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 .visually-hidden {
@@ -474,14 +471,6 @@ img {
 
 .list {
   list-style: none;
-}
-
-.button-item {
-  display: flex;
-  width: calc(100% - 4*24px)/5;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .button-color {
@@ -537,8 +526,7 @@ img {
 .card-item {
   background-color: var(--white-color);
   width: calc((100% - 48px) / 3);
-  border: 1px solid #7e9fc7;
-  }
+ }
 
 .project-card-img {
   border: none;
